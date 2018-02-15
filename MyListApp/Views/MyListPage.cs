@@ -48,7 +48,7 @@ namespace MyListApp
 		public MyListPage()
 		{
 			Title = "My List";
-			Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
+			//Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
 
 			//	Set up a template
 			listView.ItemsSource = Model.Items;
